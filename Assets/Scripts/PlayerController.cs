@@ -38,7 +38,13 @@ public class PlayerController : MonoBehaviour
         _moveSpeed = walkSpeed;
         Cursor.lockState = CursorLockMode.Locked;
     }
-    
+
+
+    private void OnDisable()
+    {
+        _interactaAction.performed -= Interact;
+    }
+
     void Update()
     {
         // Handle Sprint
@@ -86,7 +92,9 @@ public class PlayerController : MonoBehaviour
 
     void Interact(InputAction.CallbackContext obj)
     {
-        Debug.Log(message:"Interact");
+        if (_CurrentInteractable == null){ return;}
+        
+        _CurrentInteractable.onInteract.Invoke();
     }
 
     private void OnTriggerEnter(Collider other)
