@@ -1406,7 +1406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206071303}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.24611636, y: 0.000000018645585, z: -0.000000004734619, w: 0.9692403}
+  m_LocalRotation: {x: 0.24611636, y: -0.000000018645583, z: 0.0000000047346185, w: 0.9692403}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2369,7 +2369,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &452091387
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2555,8 +2555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482545765}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.040809486, y: 0.000000008157865, z: -0.0000000027320526,
-    w: 0.99916697}
+  m_LocalRotation: {x: 0.040809486, y: -0.000000008157869, z: 0.000000002732054, w: 0.99916697}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2611,6 +2610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124519152226941387, guid: 6a0626983645a9d42a181015b0374906,
+        type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4124519152226941387, guid: 6a0626983645a9d42a181015b0374906,
         type: 3}
@@ -2848,7 +2852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &511787556
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3940,7 +3944,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638143849}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2931643, y: -0.00000003290074, z: 0.000000010088594, w: 0.95606214}
+  m_LocalRotation: {x: 0.2931643, y: 0.00000003290074, z: -0.000000010088594, w: 0.95606214}
   m_LocalPosition: {x: 88.49, y: 3.18, z: -110.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4795,7 +4799,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.68
+      value: 27.69
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
@@ -4805,7 +4809,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -125
+      value: -91.43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
@@ -4845,7 +4849,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
       propertyPath: m_Name
-      value: Coin_C
+      value: Coin_Open
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5452,7 +5456,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.1
+      value: 26.67
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
@@ -5462,7 +5466,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -89.5
+      value: -118.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
@@ -5502,7 +5506,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bf7e6fcdc2781c547857f84a3f704c37,
         type: 3}
       propertyPath: m_Name
-      value: Coin_C (1)
+      value: Coin_Closed
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5797,8 +5801,8 @@ Transform:
   m_GameObject: {fileID: 1145350835}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -57.26, y: 1.7, z: -36.91}
-  m_LocalScale: {x: 3.5882542, y: 6.4337397, z: 20.35317}
+  m_LocalPosition: {x: -57.26, y: 1.7, z: -37}
+  m_LocalScale: {x: 3.5882542, y: 6.4337397, z: 20.407948}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 386887167}
@@ -6211,7 +6215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384985866}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.29316425, y: -0.00000001645037, z: 0.000000005044297, w: 0.95606214}
+  m_LocalRotation: {x: 0.29316425, y: 0.000000016450368, z: -0.000000005044296, w: 0.95606214}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7063,19 +7067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onInteract:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 265610883}
-        m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCameraBase, Cinemachine
-        m_MethodName: set_Priority
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 11
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!135 &1608284060
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9321,6 +9313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4124519152226941387, guid: 6a0626983645a9d42a181015b0374906,
+        type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4124519152226941387, guid: 6a0626983645a9d42a181015b0374906,
         type: 3}

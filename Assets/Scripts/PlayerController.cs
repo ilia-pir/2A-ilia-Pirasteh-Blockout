@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         _interactaAction.performed += Interact;
         _animator = GetComponentInChildren<Animator>();
         _moveSpeed = walkSpeed;
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
 
