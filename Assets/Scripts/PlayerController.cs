@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         _interactaAction.performed += Interact;
         _animator = GetComponentInChildren<Animator>();
         _moveSpeed = walkSpeed;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -105,6 +105,7 @@ public class PlayerController : MonoBehaviour
        if (collidedInteractable == null) { return;}
 
        _CurrentInteractable = collidedInteractable;
+       GameManager.instence.ShowInteractUI(true);
     }
     private void OnTriggerExit(Collider other)
     {
@@ -114,7 +115,7 @@ public class PlayerController : MonoBehaviour
         if (_CurrentInteractable == null) {return;}
 
         _CurrentInteractable = null;
-
+GameManager.instence.ShowInteractUI(false);
         
     }
     
